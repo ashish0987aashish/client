@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+@layer base{
+
+    
+
+    html{
+
+        font-family: "Allerta Stencil", serif;
+    }
+
+    body{
+
+        background-color: rgb(255, 255, 246);
+        overflow-x: hidden;
+    }
+
+
+
+}
+
+
+
+@layer components{
+   
+    .box{
+
+        @apply   w-[31%] relative cursor-pointer h-full
+    }
+}
+
+
+
+ @layer utilities {
+        .underline-left {
+          @apply relative;
+        }
+        .underline-left::after {
+          content: "";
+          @apply absolute bottom-0 left-0 w-0 h-0.5 bg-white;
+          transition: width 300ms ease-in-out;
+        }
+        .underline-left:hover::after {
+          @apply w-full;
+        }
+
+
+
+
+        .underline-U {
+          @apply relative;
+        }
+        .underline-U::after {
+          content: "";
+          @apply absolute bottom-0 left-0 w-0 h-0.5 bg-black;
+          transition: width 300ms ease-in-out;
+        }
+        .underline-U:hover::after {
+          @apply w-full;
+        }
+
+
+
+        .underline-A {
+          @apply relative;
+        }
+        .underline-A::after {
+          content: "";
+          @apply absolute w-full bg-black;
+          transition: width 300ms ease-in-out;
+        }
+        
+
+
+        .underlinex {
+    
+        display: inline-block;
+        overflow: hidden;
+        }
+
+        .underlinex::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 2px; /* Adjust thickness */
+        background-color: currentColor;
+        transform: scaleX(0);
+        transition: transform 0.3s ease-out;
+        transform-origin: left;
+      }
+
+       .underlinex:hover::after {
+        transform: scaleX(1);
+      }
+
+        
+     .rotate-90 {
+      transform: rotate(-90deg);
+      }
+
+ } 
+
+ 
+
+
+
