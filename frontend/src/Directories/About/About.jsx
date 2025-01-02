@@ -83,7 +83,7 @@ useEffect(() => {
 
        <div className="img2 w-[35vw] h-[35vw] bg-slate-600">
         
-          <img src="../../src/assets/lmage3.jpg" alt=""  className='w-full h-full object-cover' />
+          <img src="https://images.prismic.io/rejouice/d8e1fa1f-4f24-41e1-a249-098c62df5aff_Group+46+%281%29.jpg?auto=compress,format" alt=""  className='w-full h-full object-cover' />
        </div>
 
      </div>
