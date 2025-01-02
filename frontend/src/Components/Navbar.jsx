@@ -77,7 +77,8 @@ const Navbar = () => {
              
               <div className="h-video w-[28vw] h-[19vw] bg-slate-600 rounded-lg">
                 
-                <video muted autoPlay loop src="../src/assets/heroImg.mp4" className='w-full h-full  object-cover rounded-lg'></video>
+                <video muted autoPlay loop src="
+https://prismic-io.s3.amazonaws.com/rejouice/87835eca-32b7-4eeb-91fc-4ba0dad1fdec_Website-homepage-Work-01_1.mp4" className='w-full h-full  object-cover rounded-lg'></video>
                
               </div>
           </div>
