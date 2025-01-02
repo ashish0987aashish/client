@@ -48,7 +48,7 @@ useEffect(() => {
      <div className="card1 w-full flex justify-around">
     
        <div className="img1 w-[35vw] h-[35vw] bg-slate-600">
-          <img src="../../src/assets/image3x.jpg" alt="" className='w-full h-full object-cover' />
+          <img src="https://images.prismic.io/rejouice/2874f084-ec6c-4a19-b025-a55c1e6db929_Group+3692.jpg?auto=compress,format" alt="" className='w-full h-full object-cover' />
        </div>
 
        <div className="txt1 text-start w-[40vw] h-[35vw] overflow-hidden flex justify-center items-start text-4xl flex-col">
