@@ -33,7 +33,8 @@ const Hero = () => {
   return (
     <div className='w-full h-[100vh] relative bg-zinc-900'>
      
-      <video muted autoPlay loop className='object-cover absolute w-full h-full' src="../src/assets/heroImg.mp4"></video>
+      <video muted autoPlay loop className='object-cover absolute w-full h-full' src="
+https://prismic-io.s3.amazonaws.com/rejouice/87835eca-32b7-4eeb-91fc-4ba0dad1fdec_Website-homepage-Work-01_1.mp4"></video>
            
       <div className="hero-content  h-full w-full flex  items-center text-white flex-col relative z-10">
       
